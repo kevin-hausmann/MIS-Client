@@ -1,0 +1,177 @@
+/* http://www.colorschemer.com/schemes/viewscheme.php?id=8816 */
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 30px 0px 15px 0px;
+	text-align: center;
+}
+
+#modules {
+	font-size: 1em;
+	color: #777777;
+	margin: 20px auto;
+	width: 1000px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#mainPanel {
+	margin: 30px;
+	padding: 0px;
+}
+
+.modulePanel {
+	margin-left: 10px;
+	padding: 0px;
+	border: 1px solid #9C1C20;
+}
+
+.statusLabel {
+	width: 250px;
+	margin: 4px 0px 0px 3px;
+}
+
+.changeModule-statusLabel {
+	margin: 4px 0px 0px 3px;
+}
+
+.statusLabelWorking {
+	width: 250px;
+	margin: 4px 0px 0px 3px;
+	padding-left: 18px;
+	background: url(waiting.gif) no-repeat left center;
+}
+
+.hoursTextBox {
+	width: 60px;
+	background: url(refresh.gif) no-repeat left center;
+	background-color: white;
+	text-align: right;
+	margin: 0px 5px;
+}
+
+.changeModule-statusLabelWorking {
+	margin: 4px 0px 0px 3px;
+	padding-left: 18px;
+	background: url(waiting.gif) no-repeat left center;
+}
+
+.typeLabel {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(change.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-report {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(report.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-calculation {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(calc.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-tree {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(tree.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-descriptor {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(descriptor.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-series {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(series.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-value {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(value.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-view {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(view.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.typeLabel-crf {
+	/* font-weight: bold; */
+	margin-right: 4px;
+	background: url(crf.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.refreshTextBox {
+	width: 50px;
+	background: url(refresh.gif) no-repeat left center;
+	margin: 2px 0px 1px 0px;
+	text-align: right;
+}
+
+.refreshButton {
+	margin: 1px 0px 1px 5px;
+	font-size: small;
+}
+
+.minutesLabel {
+	width: 70px;
+	margin: 4px 0px 0px 2px;
+}
+
+.userTable {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.changeTable {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.tableHeader {
+	background: #D8CAA8;
+	font-weight: bold;
+}
+
+.tableCell {
+	border: 1px solid #A7A37E;
+	font-size: 14px;
+}
+
+.staleLogin {
+	background: #B9121B;
+}
+
+.loggedIn {
+	background: #468566;
+}
+
+.valuesChanged {
+	background: #468566;
+}
+
+.everySecondRow {
+	background: #E6E2AF;
+}
