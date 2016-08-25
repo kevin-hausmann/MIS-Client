@@ -17,13 +17,13 @@ h1 {
 	margin-bottom: 10px;
 }
 
-#mainPanel {
-	margin: 30px;
+.mainPanel {
+	margin: auto;
 	padding: 0px;
 }
 
 .modulePanel {
-	margin-left: 10px;
+	margin-right: 15px;
 	padding: 0px;
 	border: 1px solid #9C1C20;
 }
