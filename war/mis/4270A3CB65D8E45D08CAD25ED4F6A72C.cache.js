@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.mis;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = '11DF51F6D0B9923431B3142C2EA15824';
+var $strongName = '4270A3CB65D8E45D08CAD25ED4F6A72C';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -22,7 +22,7 @@ var $stats = $wnd.__gwtStatsEvent ? function(a) {
 return $wnd.__gwtStatsEvent && $wnd.__gwtStatsEvent(a);
 } : null;
 var $sessionId = $wnd.__gwtStatsSessionId ? $wnd.__gwtStatsSessionId : null;
-var $intern_0 = 3.141592653589793, $intern_1 = {3:1, 7:1}, $intern_2 = {3:1, 247:1}, $intern_3 = {3:1}, $intern_4 = {9:1, 15:1, 3:1, 5:1, 4:1}, $intern_5 = {15:1, 26:1, 3:1, 5:1, 4:1}, $intern_6 = {15:1, 27:1, 3:1, 5:1, 4:1}, $intern_7 = {16:1, 3:1, 5:1, 4:1}, $intern_8 = {45:1, 3:1, 7:1}, $intern_9 = 65535, $intern_10 = 1900, $intern_11 = {3:1, 5:1, 18:1}, $intern_12 = -2147483648, $intern_13 = 4194303, $intern_14 = 1048575, $intern_15 = 524288, $intern_16 = 4194304, $intern_17 = 17592186044416, $intern_18 = -9223372036854775808, $intern_19 = 65536, $intern_20 = 1048576, $intern_21 = 16777216, $intern_22 = 33554432, $intern_23 = 67108864, $intern_24 = {13:1, 10:1, 12:1, 11:1, 14:1, 8:1, 6:1}, $intern_25 = {48:1, 21:1}, $intern_26 = {249:1, 21:1}, $intern_27 = {99:1, 21:1}, $intern_28 = {13:1, 10:1, 12:1, 11:1, 14:1, 55:1, 8:1, 6:1}, $intern_29 = {28:1, 3:1, 5:1, 4:1}, $intern_30 = {19:1}, $intern_31 = {3:1, 23:1};
+var $intern_0 = 3.141592653589793, $intern_1 = {3:1, 7:1}, $intern_2 = {3:1, 247:1}, $intern_3 = {3:1}, $intern_4 = {9:1, 15:1, 3:1, 5:1, 4:1}, $intern_5 = {15:1, 26:1, 3:1, 5:1, 4:1}, $intern_6 = {15:1, 27:1, 3:1, 5:1, 4:1}, $intern_7 = {16:1, 3:1, 5:1, 4:1}, $intern_8 = {45:1, 3:1, 7:1}, $intern_9 = 65535, $intern_10 = 1900, $intern_11 = {3:1, 5:1, 18:1}, $intern_12 = -2147483648, $intern_13 = 4194303, $intern_14 = 1048575, $intern_15 = 524288, $intern_16 = 4194304, $intern_17 = 17592186044416, $intern_18 = -9223372036854775808, $intern_19 = 65536, $intern_20 = 1048576, $intern_21 = 16777216, $intern_22 = 33554432, $intern_23 = 67108864, $intern_24 = {13:1, 10:1, 12:1, 11:1, 14:1, 8:1, 6:1}, $intern_25 = {48:1, 21:1}, $intern_26 = {249:1, 21:1}, $intern_27 = {99:1, 21:1}, $intern_28 = {13:1, 10:1, 12:1, 11:1, 14:1, 55:1, 8:1, 6:1}, $intern_29 = {28:1, 3:1, 5:1, 4:1}, $intern_30 = {19:1}, $intern_31 = {3:1, 24:1};
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function typeMarkerFn(){
 }
@@ -1869,7 +1869,7 @@ function $setRelativeElement(this$static, relativeElem){
 function fireNativeEvent(nativeEvent, handlerSource, relativeElem){
   var currentNative, currentRelativeElem, type_0, type$iterator, types;
   if (registered) {
-    types = dynamicCast($unsafeGet(registered, nativeEvent.type), 23);
+    types = dynamicCast($unsafeGet(registered, nativeEvent.type), 24);
     if (types) {
       for (type$iterator = types.iterator(); type$iterator.hasNext();) {
         type_0 = dynamicCast(type$iterator.next_0(), 30);
@@ -1975,7 +1975,7 @@ function DomEvent$Type(eventName, flyweight){
   GwtEvent$Type.call(this);
   this.flyweight = flyweight;
   !registered && (registered = new PrivateMap);
-  types = dynamicCast($unsafeGet(registered, eventName), 23);
+  types = dynamicCast($unsafeGet(registered, eventName), 24);
   if (!types) {
     types = new ArrayList;
     $unsafePut(registered, eventName, types);
@@ -2286,7 +2286,7 @@ function $doRemoveNow(this$static, type_0, source, handler){
   var l, removed, sourceMap;
   l = $getHandlerList(this$static, type_0, source);
   removed = l.remove_1(handler);
-  removed && l.isEmpty() && (sourceMap = dynamicCast($get_0(this$static.map_0, type_0), 49) , dynamicCast($remove_10(sourceMap.hashCodeMap, source), 23) , sourceMap.size_0 == 0 && $remove_5(this$static.map_0, type_0) , undefined);
+  removed && l.isEmpty() && (sourceMap = dynamicCast($get_0(this$static.map_0, type_0), 49) , dynamicCast($remove_10(sourceMap.hashCodeMap, source), 24) , sourceMap.size_0 == 0 && $remove_5(this$static.map_0, type_0) , undefined);
 }
 
 function $ensureHandlerList(this$static, type_0, source){
@@ -2296,7 +2296,7 @@ function $ensureHandlerList(this$static, type_0, source){
     sourceMap = new HashMap;
     $put_0(this$static.map_0, type_0, sourceMap);
   }
-  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 23);
+  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 24);
   if (!handlers) {
     handlers = new ArrayList;
     $put_1(sourceMap.hashCodeMap, source, handlers);
@@ -2316,7 +2316,7 @@ function $getHandlerList(this$static, type_0, source){
   if (!sourceMap) {
     return $clinit_Collections() , $clinit_Collections() , EMPTY_LIST;
   }
-  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 23);
+  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 24);
   if (!handlers) {
     return $clinit_Collections() , $clinit_Collections() , EMPTY_LIST;
   }
@@ -6876,7 +6876,7 @@ function $readChanges(this$static, javaScriptObject){
     if ($startsWith(change.changeJSO.type, VALUE)) {
       database = getByID(change.changeJSO.database);
       $containsKey(this$static.valueChanges, database) || $put_0(this$static.valueChanges, database, new ArrayList);
-      dynamicCast($get_0(this$static.valueChanges, database), 23).add_1(change);
+      dynamicCast($get_0(this$static.valueChanges, database), 24).add_1(change);
     }
      else 
       $add_5(this$static.changes, change);
@@ -7159,12 +7159,13 @@ var Lde_uba_mis_client_types_Change_2_classLit = createForClass('de.uba.mis.clie
 function $clinit_Database(){
   $clinit_Database = emptyMethod;
   ZSE = new Database('ZSE', 0, 'ZSE_aktuell');
-  ZSE2014 = new Database('ZSE2014', 1, 'ZSE_Submission_2014_20140303');
-  ZSE2013 = new Database('ZSE2013', 2, 'ZSE_Submission_2013_20130220');
-  BEU = new Database('BEU', 3, 'BEU');
-  POSO = new Database('POSO', 4, 'PoSo');
-  ESz = new Database('ESz', 5, 'ESZ');
-  Enerdat = new Database('Enerdat', 6, 'Enerdat');
+  ZSE2018 = new Database('ZSE2018', 1, 'ZSE_Submission_2018_20180214');
+  BEU = new Database('BEU', 2, 'BEU');
+  POSO = new Database('POSO', 3, 'PoSo');
+  ESz = new Database('ESz', 4, 'ESZ');
+  Enerdat = new Database('Enerdat', 5, 'Enerdat');
+  EMMa = new Database('EMMa', 6, 'EMMa');
+  EMMa2018 = new Database('EMMa2018', 7, 'EMMa_2018');
 }
 
 function $getDisplayName(this$static){
@@ -7172,17 +7173,19 @@ function $getDisplayName(this$static){
     case 0:
       return 'ZSE';
     case 1:
-      return 'ZSE 2014';
+      return 'ZSE 2018';
     case 2:
-      return 'ZSE 2013';
-    case 3:
       return 'BEU';
-    case 4:
+    case 3:
       return 'PoSo';
-    case 5:
+    case 4:
       return 'ESz';
-    case 6:
+    case 5:
       return 'Enerdat';
+    case 6:
+      return 'EMMa';
+    case 7:
+      return 'EMMa 2018';
   }
   return null;
 }
@@ -7192,17 +7195,19 @@ function $getLongDisplayName(this$static){
     case 0:
       return 'ZSE aktuell';
     case 1:
-      return 'ZSE Submission 2014';
+      return 'ZSE Submission 2018';
     case 2:
-      return 'ZSE Submission 2013';
-    case 3:
       return 'Bilanz der Emissionsursachen (BEU)';
-    case 4:
+    case 3:
       return 'Punktquellen (PoSo)';
-    case 5:
+    case 4:
       return 'Emissionsszenarien';
-    case 6:
+    case 5:
       return 'Enerdat';
+    case 6:
+      return 'Emissionsminderungsma\xDFnahmen';
+    case 7:
+      return 'Emissionsminderungsma\xDFnahmen 2018';
   }
   return null;
 }
@@ -7215,7 +7220,7 @@ function Database(enum$name, enum$ordinal, id_0){
 function getByID(id_0){
   $clinit_Database();
   var database, database$array, database$index, database$max;
-  for (database$array = initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 24, 0, [ZSE, ZSE2014, ZSE2013, BEU, POSO, ESz, Enerdat]) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
+  for (database$array = initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 23, 0, [ZSE, ZSE2018, BEU, POSO, ESz, Enerdat, EMMa, EMMa2018]) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
     database = database$array[database$index];
     if ($equalsIgnoreCase(database.id_0, id_0))
       return database;
@@ -7225,12 +7230,12 @@ function getByID(id_0){
 
 function values_5(){
   $clinit_Database();
-  return initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 24, 0, [ZSE, ZSE2014, ZSE2013, BEU, POSO, ESz, Enerdat]);
+  return initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 23, 0, [ZSE, ZSE2018, BEU, POSO, ESz, Enerdat, EMMa, EMMa2018]);
 }
 
-defineClass(24, 4, {24:1, 3:1, 5:1, 4:1}, Database);
-var BEU, ESz, Enerdat, POSO, ZSE, ZSE2013, ZSE2014;
-var Lde_uba_mis_client_types_Database_2_classLit = createForEnum('de.uba.mis.client.types', 'Database', 24, values_5);
+defineClass(23, 4, {23:1, 3:1, 5:1, 4:1}, Database);
+var BEU, EMMa, EMMa2018, ESz, Enerdat, POSO, ZSE, ZSE2018;
+var Lde_uba_mis_client_types_Database_2_classLit = createForEnum('de.uba.mis.client.types', 'Database', 23, values_5);
 function $compareTo_2(this$static, otherUser){
   if (this$static == otherUser)
     return 0;
@@ -7321,7 +7326,7 @@ function $accepts(this$static, database){
 function $createFilterWidget(this$static){
   var box, database, database$array, database$index, database$max, panel;
   panel = new VerticalPanel;
-  for (database$array = ($clinit_Database() , initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 24, 0, [ZSE, ZSE2014, ZSE2013, BEU, POSO, ESz, Enerdat])) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
+  for (database$array = ($clinit_Database() , initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 23, 0, [ZSE, ZSE2018, BEU, POSO, ESz, Enerdat, EMMa, EMMa2018])) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
     database = database$array[database$index];
     box = new CheckBox_0($getLongDisplayName(database));
     $setValue(box, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
@@ -7406,7 +7411,7 @@ function DatabaseDialog(user){
   $setText(this.caption, 'Databases');
   list = '';
   for (database$iterator = $iterator(new AbstractMap$1($getLoggedIntoDatabases(user).map_0)); $hasNext(database$iterator.val$outerIter2);) {
-    database = dynamicCast($next_3(database$iterator), 24);
+    database = dynamicCast($next_3(database$iterator), 23);
     list += '- ' + (!database?'Unknown database':$getLongDisplayName(database)) + '<br>';
   }
   $add_1(this, new HTML_0(list));
@@ -7501,19 +7506,19 @@ function $update_1(this$static, changes, valueChanges){
   sort_0(changes);
   databases = new HashSet;
   for (database$iterator = $iterator(new AbstractMap$1(valueChanges)); $hasNext(database$iterator.val$outerIter2);) {
-    database = dynamicCast($next_3(database$iterator), 24);
+    database = dynamicCast($next_3(database$iterator), 23);
     if (!$accepts(this$static.databaseFilterPanel, database))
       continue;
     if (!$contains_0(this$static.typeFilterPanel.typeFilter, VALUE))
       continue;
     row = $getDOMRowCount_0(this$static.bodyElem);
     $add_6(databases, database);
-    changed = new Label_1(dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 23).size_1() + ' value(s) changed');
+    changed = new Label_1(dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 24).size_1() + ' value(s) changed');
     $setClassName(($clinit_DOM() , changed.element), 'typeLabel-value');
     $setText_0(this$static, row, 0, ' ');
     $setText_0(this$static, row, 1, $getDisplayName(database));
     $setWidget_1(this$static, row, 2, changed);
-    $setWidget_1(this$static, row, 3, new Button_0('Show details...', new ChangeTable$3(this$static, dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 23))));
+    $setWidget_1(this$static, row, 3, new Button_0('Show details...', new ChangeTable$3(this$static, dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 24))));
     $setAllCellStyle(this$static, row);
     $setStyleName_1(this$static.rowFormatter, row, 'valuesChanged');
   }
@@ -8486,7 +8491,7 @@ _.remove_0 = function remove_12(){
 }
 ;
 var Ljava_util_AbstractHashMap$EntrySetIterator_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySetIterator', 52);
-defineClass(268, 264, {23:1});
+defineClass(268, 264, {24:1});
 _.add_0 = function add_2(index_0, element){
   throw new UnsupportedOperationException('Add not supported on this list');
 }
@@ -8501,10 +8506,10 @@ _.equals$ = function equals_7(o){
   if (o === this) {
     return true;
   }
-  if (!instanceOf(o, 23)) {
+  if (!instanceOf(o, 24)) {
     return false;
   }
-  other = dynamicCast(o, 23);
+  other = dynamicCast(o, 24);
   if (this.size_1() != other.size_1()) {
     return false;
   }
@@ -8592,7 +8597,7 @@ function AbstractList$SubList(wrapped){
   this.size_0 = 499;
 }
 
-defineClass(114, 268, {23:1}, AbstractList$SubList);
+defineClass(114, 268, {24:1}, AbstractList$SubList);
 _.add_0 = function add_4(index_0, element){
   checkPositionIndex(index_0, this.size_0);
   this.wrapped.add_0(this.fromIndex + index_0, element);

@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.mis;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = '527F41A569CA92F9A9DFE31FD19C8E56';
+var $strongName = '9657120838C41F7BD2D4BCD470A59E06';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -22,7 +22,7 @@ var $stats = $wnd.__gwtStatsEvent ? function(a) {
 return $wnd.__gwtStatsEvent && $wnd.__gwtStatsEvent(a);
 } : null;
 var $sessionId = $wnd.__gwtStatsSessionId ? $wnd.__gwtStatsSessionId : null;
-var $intern_0 = 3.141592653589793, $intern_1 = {3:1, 7:1}, $intern_2 = {3:1, 255:1}, $intern_3 = {3:1}, $intern_4 = {9:1, 15:1, 3:1, 5:1, 4:1}, $intern_5 = {15:1, 26:1, 3:1, 5:1, 4:1}, $intern_6 = {15:1, 27:1, 3:1, 5:1, 4:1}, $intern_7 = {15:1, 28:1, 3:1, 5:1, 4:1}, $intern_8 = {16:1, 3:1, 5:1, 4:1}, $intern_9 = {46:1, 3:1, 7:1}, $intern_10 = 65535, $intern_11 = 1900, $intern_12 = {3:1, 5:1, 18:1}, $intern_13 = -2147483648, $intern_14 = 4194303, $intern_15 = 1048575, $intern_16 = 524288, $intern_17 = 4194304, $intern_18 = 17592186044416, $intern_19 = -9223372036854775808, $intern_20 = 65536, $intern_21 = 131072, $intern_22 = 1048576, $intern_23 = 16777216, $intern_24 = 33554432, $intern_25 = 67108864, $intern_26 = {13:1, 10:1, 12:1, 11:1, 14:1, 8:1, 6:1}, $intern_27 = {49:1, 21:1}, $intern_28 = {257:1, 21:1}, $intern_29 = {101:1, 21:1}, $intern_30 = {13:1, 10:1, 12:1, 11:1, 14:1, 56:1, 8:1, 6:1}, $intern_31 = {29:1, 3:1, 5:1, 4:1}, $intern_32 = {19:1}, $intern_33 = {3:1, 23:1};
+var $intern_0 = 3.141592653589793, $intern_1 = {3:1, 7:1}, $intern_2 = {3:1, 255:1}, $intern_3 = {3:1}, $intern_4 = {9:1, 15:1, 3:1, 5:1, 4:1}, $intern_5 = {15:1, 26:1, 3:1, 5:1, 4:1}, $intern_6 = {15:1, 27:1, 3:1, 5:1, 4:1}, $intern_7 = {15:1, 28:1, 3:1, 5:1, 4:1}, $intern_8 = {16:1, 3:1, 5:1, 4:1}, $intern_9 = {46:1, 3:1, 7:1}, $intern_10 = 65535, $intern_11 = 1900, $intern_12 = {3:1, 5:1, 18:1}, $intern_13 = -2147483648, $intern_14 = 4194303, $intern_15 = 1048575, $intern_16 = 524288, $intern_17 = 4194304, $intern_18 = 17592186044416, $intern_19 = -9223372036854775808, $intern_20 = 65536, $intern_21 = 131072, $intern_22 = 1048576, $intern_23 = 16777216, $intern_24 = 33554432, $intern_25 = 67108864, $intern_26 = {13:1, 10:1, 12:1, 11:1, 14:1, 8:1, 6:1}, $intern_27 = {49:1, 21:1}, $intern_28 = {257:1, 21:1}, $intern_29 = {101:1, 21:1}, $intern_30 = {13:1, 10:1, 12:1, 11:1, 14:1, 56:1, 8:1, 6:1}, $intern_31 = {29:1, 3:1, 5:1, 4:1}, $intern_32 = {19:1}, $intern_33 = {3:1, 24:1};
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function typeMarkerFn(){
 }
@@ -157,7 +157,7 @@ _.toString = function(){
   return this.toString$();
 }
 ;
-stringCastMap = {3:1, 289:1, 5:1, 2:1};
+stringCastMap = {3:1, 288:1, 5:1, 2:1};
 modernizeBrowser();
 function canCast(src_0, dstId){
   return isJavaString(src_0) && !!stringCastMap[dstId] || src_0.castableTypeMap$ && !!src_0.castableTypeMap$[dstId];
@@ -514,8 +514,8 @@ function $cancelAnimationFrame(this$static, requestId){
 
 function $updateAnimations(this$static){
   var curAnimations, duration, requestId, requestId$index, requestId$max;
-  curAnimations = initDim(Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_2_classLit, {298:1, 3:1}, 85, this$static.animationRequests.array.length, 0, 1);
-  curAnimations = dynamicCast($toArray(this$static.animationRequests, curAnimations), 298);
+  curAnimations = initDim(Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_2_classLit, {297:1, 3:1}, 85, this$static.animationRequests.array.length, 0, 1);
+  curAnimations = dynamicCast($toArray(this$static.animationRequests, curAnimations), 297);
   duration = new Duration;
   for (requestId$index = 0 , requestId$max = curAnimations.length; requestId$index < requestId$max; ++requestId$index) {
     requestId = curAnimations[requestId$index];
@@ -2026,7 +2026,7 @@ function $setRelativeElement(this$static, relativeElem){
 function fireNativeEvent(nativeEvent, handlerSource, relativeElem){
   var currentNative, currentRelativeElem, type_0, type$iterator, types;
   if (registered) {
-    types = dynamicCast($unsafeGet(registered, nativeEvent.type), 23);
+    types = dynamicCast($unsafeGet(registered, nativeEvent.type), 24);
     if (types) {
       for (type$iterator = types.iterator(); type$iterator.hasNext();) {
         type_0 = dynamicCast(type$iterator.next_0(), 31);
@@ -2059,7 +2059,7 @@ function ChangeEvent(){
 
 defineClass(213, 281, {}, ChangeEvent);
 _.dispatch = function dispatch(handler){
-  $setRefreshTimer(dynamicCast(handler, 291).this$01);
+  $setRefreshTimer(dynamicCast(handler, 290).this$01);
 }
 ;
 _.getAssociatedType_0 = function getAssociatedType_0(){
@@ -2132,7 +2132,7 @@ function DomEvent$Type(eventName, flyweight){
   GwtEvent$Type.call(this);
   this.flyweight = flyweight;
   !registered && (registered = new PrivateMap);
-  types = dynamicCast($unsafeGet(registered, eventName), 23);
+  types = dynamicCast($unsafeGet(registered, eventName), 24);
   if (!types) {
     types = new ArrayList;
     $unsafePut(registered, eventName, types);
@@ -2157,7 +2157,7 @@ function MouseDownEvent(){
 
 defineClass(239, 283, {}, MouseDownEvent);
 _.dispatch = function dispatch_1(handler){
-  $dispatch(this, dynamicCast(handler, 293));
+  $dispatch(this, dynamicCast(handler, 292));
 }
 ;
 _.getAssociatedType_0 = function getAssociatedType_2(){
@@ -2180,7 +2180,7 @@ function MouseMoveEvent(){
 
 defineClass(241, 283, {}, MouseMoveEvent);
 _.dispatch = function dispatch_2(handler){
-  $dispatch_0(this, dynamicCast(handler, 297));
+  $dispatch_0(this, dynamicCast(handler, 296));
 }
 ;
 _.getAssociatedType_0 = function getAssociatedType_3(){
@@ -2199,7 +2199,7 @@ function MouseOutEvent(){
 
 defineClass(243, 283, {}, MouseOutEvent);
 _.dispatch = function dispatch_3(handler){
-  dynamicCast(handler, 295);
+  dynamicCast(handler, 294);
 }
 ;
 _.getAssociatedType_0 = function getAssociatedType_4(){
@@ -2218,7 +2218,7 @@ function MouseOverEvent(){
 
 defineClass(242, 283, {}, MouseOverEvent);
 _.dispatch = function dispatch_4(handler){
-  dynamicCast(handler, 296);
+  dynamicCast(handler, 295);
 }
 ;
 _.getAssociatedType_0 = function getAssociatedType_5(){
@@ -2241,7 +2241,7 @@ function MouseUpEvent(){
 
 defineClass(240, 283, {}, MouseUpEvent);
 _.dispatch = function dispatch_5(handler){
-  $dispatch_1(this, dynamicCast(handler, 294));
+  $dispatch_1(this, dynamicCast(handler, 293));
 }
 ;
 _.getAssociatedType_0 = function getAssociatedType_6(){
@@ -2277,7 +2277,7 @@ function fire_0(source){
 
 defineClass(212, 278, {}, CloseEvent_0);
 _.dispatch = function dispatch_6(handler){
-  dynamicCast(handler, 290);
+  dynamicCast(handler, 289);
   detachWidgets();
 }
 ;
@@ -2443,7 +2443,7 @@ function $doRemoveNow(this$static, type_0, source, handler){
   var l, removed, sourceMap;
   l = $getHandlerList(this$static, type_0, source);
   removed = l.remove_1(handler);
-  removed && l.isEmpty() && (sourceMap = dynamicCast($get_0(this$static.map_0, type_0), 50) , dynamicCast($remove_10(sourceMap.hashCodeMap, source), 23) , sourceMap.size_0 == 0 && $remove_5(this$static.map_0, type_0) , undefined);
+  removed && l.isEmpty() && (sourceMap = dynamicCast($get_0(this$static.map_0, type_0), 50) , dynamicCast($remove_10(sourceMap.hashCodeMap, source), 24) , sourceMap.size_0 == 0 && $remove_5(this$static.map_0, type_0) , undefined);
 }
 
 function $ensureHandlerList(this$static, type_0, source){
@@ -2453,7 +2453,7 @@ function $ensureHandlerList(this$static, type_0, source){
     sourceMap = new HashMap;
     $put_0(this$static.map_0, type_0, sourceMap);
   }
-  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 23);
+  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 24);
   if (!handlers) {
     handlers = new ArrayList;
     $put_1(sourceMap.hashCodeMap, source, handlers);
@@ -2473,7 +2473,7 @@ function $getHandlerList(this$static, type_0, source){
   if (!sourceMap) {
     return $clinit_Collections() , $clinit_Collections() , EMPTY_LIST;
   }
-  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 23);
+  handlers = dynamicCast(getEntryValueOrNull($getEntry(sourceMap.hashCodeMap, source)), 24);
   if (!handlers) {
     return $clinit_Collections() , $clinit_Collections() , EMPTY_LIST;
   }
@@ -2688,10 +2688,10 @@ function $formatMonth(buf, count, date){
       $append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'])[value_0]);
       break;
     case 4:
-      $append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'])[value_0]);
+      $append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])[value_0]);
       break;
     case 3:
-      $append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan.', 'Feb.', 'M\xE4rz', 'Apr.', 'Mai', 'Juni', 'Juli', 'Aug.', 'Sep.', 'Okt.', 'Nov.', 'Dez.'])[value_0]);
+      $append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])[value_0]);
       break;
     default:$zeroPaddingNumber(buf, value_0 + 1, count);
   }
@@ -2961,7 +2961,7 @@ function $subFormat(buf, ch_0, count, adjustedDate, adjustedTime, timezone){
   switch (ch_0) {
     case 71:
       value_0 = adjustedDate.jsdate.getFullYear() - $intern_11 >= -1900?1:0;
-      count >= 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['v. Chr.', 'n. Chr.'])[value_0]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['v. Chr.', 'n. Chr.'])[value_0]);
+      count >= 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Before Christ', 'Anno Domini'])[value_0]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['BC', 'AD'])[value_0]);
       break;
     case 121:
       $formatYear(buf, count, adjustedDate);
@@ -2978,10 +2978,10 @@ function $subFormat(buf, ch_0, count, adjustedDate, adjustedTime, timezone){
       break;
     case 69:
       value_2 = adjustedDate.jsdate.getDay();
-      count == 5?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['S', 'M', 'D', 'M', 'D', 'F', 'S'])[value_2]):count == 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'])[value_2]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'])[value_2]);
+      count == 5?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['S', 'M', 'T', 'W', 'T', 'F', 'S'])[value_2]):count == 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'])[value_2]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'])[value_2]);
       break;
     case 97:
-      adjustedTime.jsdate.getHours() >= 12 && adjustedTime.jsdate.getHours() < 24?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['vorm.', 'nachm.'])[1]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['vorm.', 'nachm.'])[0]);
+      adjustedTime.jsdate.getHours() >= 12 && adjustedTime.jsdate.getHours() < 24?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['AM', 'PM'])[1]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['AM', 'PM'])[0]);
       break;
     case 104:
       value_3 = adjustedTime.jsdate.getHours() % 12;
@@ -2997,15 +2997,15 @@ function $subFormat(buf, ch_0, count, adjustedDate, adjustedTime, timezone){
       break;
     case 99:
       value_6 = adjustedDate.jsdate.getDay();
-      count == 5?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['S', 'M', 'D', 'M', 'D', 'F', 'S'])[value_6]):count == 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'])[value_6]):count == 3?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'])[value_6]):$zeroPaddingNumber(buf, value_6, 1);
+      count == 5?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['S', 'M', 'T', 'W', 'T', 'F', 'S'])[value_6]):count == 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'])[value_6]):count == 3?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'])[value_6]):$zeroPaddingNumber(buf, value_6, 1);
       break;
     case 76:
       value_7 = adjustedDate.jsdate.getMonth();
-      count == 5?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'])[value_7]):count == 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'])[value_7]):count == 3?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan', 'Feb', 'M\xE4r', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'])[value_7]):$zeroPaddingNumber(buf, value_7 + 1, count);
+      count == 5?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'])[value_7]):count == 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])[value_7]):count == 3?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])[value_7]):$zeroPaddingNumber(buf, value_7 + 1, count);
       break;
     case 81:
       value_8 = ~~(adjustedDate.jsdate.getMonth() / 3);
-      count < 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Q1', 'Q2', 'Q3', 'Q4'])[value_8]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['1. Quartal', '2. Quartal', '3. Quartal', '4. Quartal'])[value_8]);
+      count < 4?$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Q1', 'Q2', 'Q3', 'Q4'])[value_8]):$append_0(buf, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'])[value_8]);
       break;
     case 100:
       value_9 = adjustedDate.jsdate.getDate();
@@ -3052,7 +3052,7 @@ function $subParse(text_0, pos, part, digitCount, cal){
   }
   switch (ch_0) {
     case 71:
-      value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['v. Chr.', 'n. Chr.']), pos);
+      value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Before Christ', 'Anno Domini']), pos);
       cal.era = value_0;
       return true;
     case 77:
@@ -3064,7 +3064,7 @@ function $subParse(text_0, pos, part, digitCount, cal){
     case 99:
       return $subParseStandaloneDay(text_0, pos, start_0, cal);
     case 97:
-      value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['vorm.', 'nachm.']), pos);
+      value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['AM', 'PM']), pos);
       cal.ampm = value_0;
       return true;
     case 121:
@@ -3131,8 +3131,8 @@ function $subParse(text_0, pos, part, digitCount, cal){
 
 function $subParseDayOfWeek(text_0, pos, start_0, cal){
   var value_0;
-  value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag']), pos);
-  value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.']), pos));
+  value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']), pos);
+  value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']), pos));
   if (value_0 < 0) {
     return false;
   }
@@ -3163,8 +3163,8 @@ function $subParseFractionalSeconds(value_0, start_0, end, cal){
 
 function $subParseMonth(text_0, pos, cal, value_0, start_0){
   if (value_0 < 0) {
-    value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']), pos);
-    value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan.', 'Feb.', 'M\xE4rz', 'Apr.', 'Mai', 'Juni', 'Juli', 'Aug.', 'Sep.', 'Okt.', 'Nov.', 'Dez.']), pos));
+    value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']), pos);
+    value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']), pos));
     if (value_0 < 0) {
       return false;
     }
@@ -3180,8 +3180,8 @@ function $subParseMonth(text_0, pos, cal, value_0, start_0){
 
 function $subParseStandaloneDay(text_0, pos, start_0, cal){
   var value_0;
-  value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag']), pos);
-  value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']), pos));
+  value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']), pos);
+  value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']), pos));
   if (value_0 < 0) {
     return false;
   }
@@ -3191,8 +3191,8 @@ function $subParseStandaloneDay(text_0, pos, start_0, cal){
 
 function $subParseStandaloneMonth(text_0, pos, cal, value_0, start_0){
   if (value_0 < 0) {
-    value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']), pos);
-    value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan', 'Feb', 'M\xE4r', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez']), pos));
+    value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']), pos);
+    value_0 < 0 && (value_0 = $matchString(text_0, start_0, initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']), pos));
     if (value_0 < 0) {
       return false;
     }
@@ -3317,7 +3317,7 @@ function $clinit_LocaleInfo(){
 }
 
 function $getDateTimeFormatInfo(this$static){
-  !this$static.dateTimeFormatInfo && (this$static.dateTimeFormatInfo = new DateTimeFormatInfoImpl_de);
+  !this$static.dateTimeFormatInfo && (this$static.dateTimeFormatInfo = new DateTimeFormatInfoImpl);
   return this$static.dateTimeFormatInfo;
 }
 
@@ -3428,13 +3428,11 @@ function offsetDisplay(offset){
 defineClass(244, 1, {}, TimeZone);
 _.standardOffset = 0;
 var Lcom_google_gwt_i18n_client_TimeZone_2_classLit = createForClass('com.google.gwt.i18n.client', 'TimeZone', 244);
-defineClass(288, 287, {});
-var Lcom_google_gwt_i18n_client_impl_cldr_DateTimeFormatInfoImpl_2_classLit = createForClass('com.google.gwt.i18n.client.impl.cldr', 'DateTimeFormatInfoImpl', 288);
-function DateTimeFormatInfoImpl_de(){
+function DateTimeFormatInfoImpl(){
 }
 
-defineClass(234, 288, {}, DateTimeFormatInfoImpl_de);
-var Lcom_google_gwt_i18n_client_impl_cldr_DateTimeFormatInfoImpl_1de_2_classLit = createForClass('com.google.gwt.i18n.client.impl.cldr', 'DateTimeFormatInfoImpl_de', 234);
+defineClass(234, 287, {}, DateTimeFormatInfoImpl);
+var Lcom_google_gwt_i18n_client_impl_cldr_DateTimeFormatInfoImpl_2_classLit = createForClass('com.google.gwt.i18n.client.impl.cldr', 'DateTimeFormatInfoImpl', 234);
 function DateTimeFormat$PatternPart(txt, cnt){
   this.text_0 = txt;
   this.count = cnt;
@@ -4083,7 +4081,7 @@ function fromInt(value_0){
   var rebase, result;
   if (value_0 > -129 && value_0 < 128) {
     rebase = value_0 + 128;
-    boxedValues == null && (boxedValues = initDim(Lcom_google_gwt_lang_LongLibBase$LongEmul_2_classLit, $intern_3, 302, 256, 0, 1));
+    boxedValues == null && (boxedValues = initDim(Lcom_google_gwt_lang_LongLibBase$LongEmul_2_classLit, $intern_3, 301, 256, 0, 1));
     result = boxedValues[rebase];
     !result && (result = boxedValues[rebase] = create_1(value_0));
     return result;
@@ -4441,7 +4439,7 @@ function fire_3(handlers, nativeEvent){
 
 defineClass(140, 278, {}, Event$NativePreviewEvent);
 _.dispatch = function dispatch_9(handler){
-  $dispatch_2(this, dynamicCast(handler, 292));
+  $dispatch_2(this, dynamicCast(handler, 291));
 }
 ;
 _.getAssociatedType = function getAssociatedType_10(){
@@ -6047,7 +6045,7 @@ function DialogBox$MouseHandler(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(231, 1, {293:1, 297:1, 295:1, 296:1, 294:1, 21:1}, DialogBox$MouseHandler);
+defineClass(231, 1, {292:1, 296:1, 294:1, 295:1, 293:1, 21:1}, DialogBox$MouseHandler);
 var Lcom_google_gwt_user_client_ui_DialogBox$MouseHandler_2_classLit = createForClass('com.google.gwt.user.client.ui', 'DialogBox/MouseHandler', 231);
 function $getTextOrHtml(this$static){
   var elem;
@@ -6422,7 +6420,7 @@ function PopupPanel$3(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(224, 1, {21:1, 292:1}, PopupPanel$3);
+defineClass(224, 1, {21:1, 291:1}, PopupPanel$3);
 var Lcom_google_gwt_user_client_ui_PopupPanel$3_2_classLit = createForClass('com.google.gwt.user.client.ui', 'PopupPanel/3', 224);
 function PopupPanel$4(this$0){
   this.this$01 = this$0;
@@ -6623,7 +6621,7 @@ var Lcom_google_gwt_user_client_ui_RootPanel$1_2_classLit = createForClass('com.
 function RootPanel$2(){
 }
 
-defineClass(128, 1, {290:1, 21:1}, RootPanel$2);
+defineClass(128, 1, {289:1, 21:1}, RootPanel$2);
 var Lcom_google_gwt_user_client_ui_RootPanel$2_2_classLit = createForClass('com.google.gwt.user.client.ui', 'RootPanel/2', 128);
 function RootPanel$DefaultRootPanel(){
   RootPanel.call(this, $doc.body);
@@ -7112,7 +7110,7 @@ function $readChanges(this$static, javaScriptObject){
     if ($startsWith(change.changeJSO.type, VALUE)) {
       database = getByID(change.changeJSO.database);
       $containsKey(this$static.valueChanges, database) || $put_0(this$static.valueChanges, database, new ArrayList);
-      dynamicCast($get_0(this$static.valueChanges, database), 23).add_1(change);
+      dynamicCast($get_0(this$static.valueChanges, database), 24).add_1(change);
     }
      else 
       $add_5(this$static.changes, change);
@@ -7333,7 +7331,7 @@ function UserModule$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(130, 1, {291:1, 21:1}, UserModule$1);
+defineClass(130, 1, {290:1, 21:1}, UserModule$1);
 var Lde_uba_mis_client_modules_UserModule$1_2_classLit = createForClass('de.uba.mis.client.modules', 'UserModule/1', 130);
 function UserModule$2(this$0){
   this.this$01 = this$0;
@@ -7395,12 +7393,13 @@ var Lde_uba_mis_client_types_Change_2_classLit = createForClass('de.uba.mis.clie
 function $clinit_Database(){
   $clinit_Database = emptyMethod;
   ZSE = new Database('ZSE', 0, 'ZSE_aktuell');
-  ZSE2014 = new Database('ZSE2014', 1, 'ZSE_Submission_2014_20140303');
-  ZSE2013 = new Database('ZSE2013', 2, 'ZSE_Submission_2013_20130220');
-  BEU = new Database('BEU', 3, 'BEU');
-  POSO = new Database('POSO', 4, 'PoSo');
-  ESz = new Database('ESz', 5, 'ESZ');
-  Enerdat = new Database('Enerdat', 6, 'Enerdat');
+  ZSE2018 = new Database('ZSE2018', 1, 'ZSE_Submission_2018_20180214');
+  BEU = new Database('BEU', 2, 'BEU');
+  POSO = new Database('POSO', 3, 'PoSo');
+  ESz = new Database('ESz', 4, 'ESZ');
+  Enerdat = new Database('Enerdat', 5, 'Enerdat');
+  EMMa = new Database('EMMa', 6, 'EMMa');
+  EMMa2018 = new Database('EMMa2018', 7, 'EMMa_2018');
 }
 
 function $getDisplayName(this$static){
@@ -7408,17 +7407,19 @@ function $getDisplayName(this$static){
     case 0:
       return 'ZSE';
     case 1:
-      return 'ZSE 2014';
+      return 'ZSE 2018';
     case 2:
-      return 'ZSE 2013';
-    case 3:
       return 'BEU';
-    case 4:
+    case 3:
       return 'PoSo';
-    case 5:
+    case 4:
       return 'ESz';
-    case 6:
+    case 5:
       return 'Enerdat';
+    case 6:
+      return 'EMMa';
+    case 7:
+      return 'EMMa 2018';
   }
   return null;
 }
@@ -7428,17 +7429,19 @@ function $getLongDisplayName(this$static){
     case 0:
       return 'ZSE aktuell';
     case 1:
-      return 'ZSE Submission 2014';
+      return 'ZSE Submission 2018';
     case 2:
-      return 'ZSE Submission 2013';
-    case 3:
       return 'Bilanz der Emissionsursachen (BEU)';
-    case 4:
+    case 3:
       return 'Punktquellen (PoSo)';
-    case 5:
+    case 4:
       return 'Emissionsszenarien';
-    case 6:
+    case 5:
       return 'Enerdat';
+    case 6:
+      return 'Emissionsminderungsma\xDFnahmen';
+    case 7:
+      return 'Emissionsminderungsma\xDFnahmen 2018';
   }
   return null;
 }
@@ -7451,7 +7454,7 @@ function Database(enum$name, enum$ordinal, id_0){
 function getByID(id_0){
   $clinit_Database();
   var database, database$array, database$index, database$max;
-  for (database$array = initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 24, 0, [ZSE, ZSE2014, ZSE2013, BEU, POSO, ESz, Enerdat]) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
+  for (database$array = initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 23, 0, [ZSE, ZSE2018, BEU, POSO, ESz, Enerdat, EMMa, EMMa2018]) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
     database = database$array[database$index];
     if ($equalsIgnoreCase(database.id_0, id_0))
       return database;
@@ -7461,12 +7464,12 @@ function getByID(id_0){
 
 function values_6(){
   $clinit_Database();
-  return initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 24, 0, [ZSE, ZSE2014, ZSE2013, BEU, POSO, ESz, Enerdat]);
+  return initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 23, 0, [ZSE, ZSE2018, BEU, POSO, ESz, Enerdat, EMMa, EMMa2018]);
 }
 
-defineClass(24, 4, {24:1, 3:1, 5:1, 4:1}, Database);
-var BEU, ESz, Enerdat, POSO, ZSE, ZSE2013, ZSE2014;
-var Lde_uba_mis_client_types_Database_2_classLit = createForEnum('de.uba.mis.client.types', 'Database', 24, values_6);
+defineClass(23, 4, {23:1, 3:1, 5:1, 4:1}, Database);
+var BEU, EMMa, EMMa2018, ESz, Enerdat, POSO, ZSE, ZSE2018;
+var Lde_uba_mis_client_types_Database_2_classLit = createForEnum('de.uba.mis.client.types', 'Database', 23, values_6);
 function $compareTo_2(this$static, otherUser){
   if (this$static == otherUser)
     return 0;
@@ -7557,7 +7560,7 @@ function $accepts(this$static, database){
 function $createFilterWidget(this$static){
   var box, database, database$array, database$index, database$max, panel;
   panel = new VerticalPanel;
-  for (database$array = ($clinit_Database() , initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 24, 0, [ZSE, ZSE2014, ZSE2013, BEU, POSO, ESz, Enerdat])) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
+  for (database$array = ($clinit_Database() , initValues(getClassLiteralForArray(Lde_uba_mis_client_types_Database_2_classLit, 1), $intern_3, 23, 0, [ZSE, ZSE2018, BEU, POSO, ESz, Enerdat, EMMa, EMMa2018])) , database$index = 0 , database$max = database$array.length; database$index < database$max; ++database$index) {
     database = database$array[database$index];
     box = new CheckBox_0($getLongDisplayName(database));
     $setValue(box, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
@@ -7645,7 +7648,7 @@ function DatabaseDialog(user){
   $setText(this.caption, 'Databases');
   list = '';
   for (database$iterator = $iterator(new AbstractMap$1($getLoggedIntoDatabases(user).map_0)); $hasNext(database$iterator.val$outerIter2);) {
-    database = dynamicCast($next_3(database$iterator), 24);
+    database = dynamicCast($next_3(database$iterator), 23);
     list += '- ' + (!database?'Unknown database':$getLongDisplayName(database)) + '<br>';
   }
   $add_1(this, new HTML_0(list));
@@ -7741,19 +7744,19 @@ function $update_1(this$static, changes, valueChanges){
   sort_0(changes);
   databases = new HashSet;
   for (database$iterator = $iterator(new AbstractMap$1(valueChanges)); $hasNext(database$iterator.val$outerIter2);) {
-    database = dynamicCast($next_3(database$iterator), 24);
+    database = dynamicCast($next_3(database$iterator), 23);
     if (!$accepts(this$static.databaseFilterPanel, database))
       continue;
     if (!$contains_0(this$static.typeFilterPanel.typeFilter, VALUE))
       continue;
     row = $getDOMRowCount_0(this$static.bodyElem);
     $add_6(databases, database);
-    changed = new Label_1(dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 23).size_1() + ' value(s) changed');
+    changed = new Label_1(dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 24).size_1() + ' value(s) changed');
     $setClassName(($clinit_DOM() , changed.element), 'typeLabel-value');
     $setText_0(this$static, row, 0, ' ');
     $setText_0(this$static, row, 1, $getDisplayName(database));
     $setWidget_1(this$static, row, 2, changed);
-    $setWidget_1(this$static, row, 3, new Button_0('Show details...', new ChangeTable$3(this$static, dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 23))));
+    $setWidget_1(this$static, row, 3, new Button_0('Show details...', new ChangeTable$3(this$static, dynamicCast(getEntryValueOrNull($getEntry(valueChanges.hashCodeMap, database)), 24))));
     $setAllCellStyle(this$static, row);
     $setStyleName_1(this$static.rowFormatter, row, 'valuesChanged');
   }
@@ -8399,7 +8402,7 @@ function StringBuilder_0(s){
   AbstractStringBuilder.call(this, s);
 }
 
-defineClass(40, 70, {289:1}, StringBuilder, StringBuilder_0);
+defineClass(40, 70, {288:1}, StringBuilder, StringBuilder_0);
 var Ljava_lang_StringBuilder_2_classLit = createForClass('java.lang', 'StringBuilder', 40);
 function arraycopy(src_0, srcOfs, dest, destOfs, len){
   var destComp, destEnd, destType, destlen, srcComp, srcType, srclen;
@@ -8726,7 +8729,7 @@ _.remove_0 = function remove_12(){
 }
 ;
 var Ljava_util_AbstractHashMap$EntrySetIterator_2_classLit = createForClass('java.util', 'AbstractHashMap/EntrySetIterator', 53);
-defineClass(276, 272, {23:1});
+defineClass(276, 272, {24:1});
 _.add_0 = function add_2(index_0, element){
   throw new UnsupportedOperationException('Add not supported on this list');
 }
@@ -8741,10 +8744,10 @@ _.equals$ = function equals_7(o){
   if (o === this) {
     return true;
   }
-  if (!instanceOf(o, 23)) {
+  if (!instanceOf(o, 24)) {
     return false;
   }
-  other = dynamicCast(o, 23);
+  other = dynamicCast(o, 24);
   if (this.size_1() != other.size_1()) {
     return false;
   }
@@ -8832,7 +8835,7 @@ function AbstractList$SubList(wrapped){
   this.size_0 = 499;
 }
 
-defineClass(116, 276, {23:1}, AbstractList$SubList);
+defineClass(116, 276, {24:1}, AbstractList$SubList);
 _.add_0 = function add_4(index_0, element){
   checkPositionIndex(index_0, this.size_0);
   this.wrapped.add_0(this.fromIndex + index_0, element);
@@ -9753,7 +9756,7 @@ var I_classLit = createForPrimitive('int', 'I'), Lcom_google_gwt_lang_CollapsedP
 var $entry = registerEntry();
 var gwtOnLoad = gwtOnLoad = gwtOnLoad_0;
 addInitFunctions(init);
-setGwtProperty('permProps', [[['locale', 'de'], ['user.agent', 'gecko1_8']]]);
+setGwtProperty('permProps', [[['locale', 'default'], ['user.agent', 'gecko1_8']]]);
 $sendStats('moduleStartup', 'moduleEvalEnd');
 gwtOnLoad(__gwtModuleFunction.__errFn, __gwtModuleFunction.__moduleName, __gwtModuleFunction.__moduleBase, __gwtModuleFunction.__softPermutationId,__gwtModuleFunction.__computePropValue);
 $sendStats('moduleStartup', 'end');

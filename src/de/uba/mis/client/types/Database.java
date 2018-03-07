@@ -7,12 +7,13 @@ package de.uba.mis.client.types;
  */
 public enum Database {
 	ZSE("ZSE_aktuell"),
-	ZSE2014("ZSE_Submission_2014_20140303"),
-	ZSE2013("ZSE_Submission_2013_20130220"),
+	ZSE2018("ZSE_Submission_2018_20180214"),
 	BEU("BEU"),
 	POSO("PoSo"),
 	ESz("ESZ"),
-	Enerdat("Enerdat");
+	Enerdat("Enerdat"),
+	EMMa("EMMa"),
+	EMMa2018("EMMa_2018");
 	
 	private String id;
 	
@@ -38,12 +39,13 @@ public enum Database {
 	public String getDisplayName() {
 		switch (this) {
 			case ZSE: return "ZSE";
-			case ZSE2014 : return "ZSE 2014";
-			case ZSE2013 : return "ZSE 2013";
+			case ZSE2018: return "ZSE 2018";
 			case BEU: return "BEU";
 			case POSO: return "PoSo";
 			case ESz: return "ESz";
 			case Enerdat: return "Enerdat";
+			case EMMa: return "EMMa";
+			case EMMa2018: return "EMMa 2018";
 		}
 		
 		return null;
@@ -55,12 +57,13 @@ public enum Database {
 	public String getLongDisplayName() {
 		switch (this) {
 			case ZSE: return "ZSE aktuell";
-			case ZSE2014 : return "ZSE Submission 2014";
-			case ZSE2013 : return "ZSE Submission 2013";
+			case ZSE2018: return "ZSE Submission 2018";
 			case BEU: return "Bilanz der Emissionsursachen (BEU)";
 			case POSO: return "Punktquellen (PoSo)";
 			case ESz: return "Emissionsszenarien";
 			case Enerdat: return "Enerdat";
+			case EMMa: return "Emissionsminderungsmaßnahmen";
+			case EMMa2018: return "Emissionsminderungsmaßnahmen 2018";
 		}
 		
 		return null;
